@@ -13,7 +13,7 @@
     >
         @forelse($boards as $board)
             <section class="h-full">
-                <div class="bg-gray-100 rounded-xl min-w-[18rem] lg:w-[23rem] flex flex-col max-h-full">
+                <div class="bg-yellow-500 rounded-xl min-w-[18rem] lg:w-[23rem] flex flex-col max-h-full">
                     <div
                         class="p-2 font-semibold text-center text-gray-800 border-b bg-gray-100/80 rounded-t-xl backdrop-blur-xl backdrop-saturate-150">
                         <a
@@ -65,7 +65,7 @@
                         @empty
                             <li>
                                 <div
-                                    class="p-3 font-medium text-center text-gray-500 border border-gray-300 border-dashed rounded-xl opacity-70">
+                                    class="p-3 font-medium text-center text-white border border-gray-300 border-dashed rounded-xl opacity-70">
                                     <p>{{ trans('items.no-items') }}</p>
                                 </div>
                             </li>

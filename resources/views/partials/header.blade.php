@@ -22,12 +22,12 @@
                             {{ trans('auth.login') }}
                         </a>
                     </li>
-                    <li>
+{{--                    <li>
                         <a class="flex items-center justify-center text-white hover:text-gray-50 focus:outline-none"
                            href="{{ route('register') }}">
                             {{ trans('auth.register') }}
                         </a>
-                    </li>
+                    </li>--}}
                 @endguest
 
                 @auth

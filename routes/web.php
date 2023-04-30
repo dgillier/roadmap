@@ -10,7 +10,7 @@ use App\Http\Controllers\ChangelogController;
 use App\Http\Controllers\Auth\VerificationController;
 use App\Http\Controllers\Auth\PasswordProtectionController;
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::get('oauth/login', [\App\Http\Controllers\Auth\LoginController::class, 'redirectToProvider'])
     ->middleware('guest')
