@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'projects' => 'Projects',
-    'no-projects' => 'There are no projects.',
-    'select-hidden-projects' => 'You can only select projects where there private option is enabled.',
+    'projects' => 'Topics',
+    'no-projects' => 'There are no topics.',
+    'select-hidden-projects' => 'You can only select topics where there private option is enabled.',
 ];

@@ -3,7 +3,7 @@
 return [
     'title' => 'Title',
     'total-votes' => 'Votes',
-    'project' => 'Project',
+    'project' => 'Topics',
     'board' => 'Board',
     'content' => 'Content',
     'item' => 'Item',
